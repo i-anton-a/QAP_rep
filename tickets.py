@@ -14,5 +14,7 @@ for i in range(len(age)):
 
 if ticket > 3:
     sum_total = (sum1 * sum_ticket1 + sum2 * sum_ticket2) - (sum1 * sum_ticket1 + sum2 * sum_ticket2)*0.1
+else:
+    sum_total = (sum1 * sum_ticket1 + sum2 * sum_ticket2)
 
 print("Количество билетов : ", ticket, "По цене : ", sum_total)
